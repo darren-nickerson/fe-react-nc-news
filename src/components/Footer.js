@@ -3,8 +3,7 @@ const Footer = () => {
   return (
     <div className='footer-container'>
       <span>
-        NCnews㆐Created By: Darren Nickerson ㆐{' '}
-        <a href='https://github.com/milcroft'>Porfolio</a>{' '}
+        NCnews㆐Created By: Darren Nickerson ㆐ 2023
       </span>
     </div>
   );
