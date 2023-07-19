@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './views/Home';
@@ -13,6 +13,21 @@ import Error from './components/Error';
 
 function App() {
   const [isNavBarHidden, setisNavBarHidden] = useState(false);
+
+  useEffect(() => {
+    const apiUrl = 'https://api-job-backend.onrender.com';
+
+    fetch(apiUrl)
+      .then((response) => response.json())
+      .then((data) => {
+        console.log('API Connected:');
+      })
+      .catch((error) => {
+        console.error('Error:', error.message);
+      });
+  }, []);
+
+  
   return (
     <div className='App'>
       <BrowserRouter>
