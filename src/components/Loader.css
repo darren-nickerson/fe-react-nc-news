@@ -9,7 +9,10 @@
 
 .red-note {
   color: red;
-margin-top: 125px;}
+padding-top: 125px;
+max-width: 600px;
+  margin: auto;
+}
 
 .spins {
   text-align: center;
