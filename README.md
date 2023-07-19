@@ -7,11 +7,5 @@ A React front end project that I created as part of the Northcoders Bootcamp. Th
 - npm install <br />
 - npm run start <br />
 
-## Github Links
-- API: https://github.com/milcroft/example-news-api <br />
-- React Website: https://github.com/milcroft/fe-nc-news-version-1 <br />
-
-
 ## Live Hosted:
-- API: https://nc-be-news-api.herokuapp.com/api <br />
-- React Website: https://nc-news-v1.netlify.app/ <br />
+- React Website: https://nc-news-fc.onrender.com/ <br />
