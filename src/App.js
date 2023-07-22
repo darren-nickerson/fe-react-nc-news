@@ -14,18 +14,6 @@ import Error from './components/Error';
 function App() {
   const [isNavBarHidden, setisNavBarHidden] = useState(false);
 
-  useEffect(() => {
-    const apiUrl = 'https://api-job-backend.onrender.com';
-
-    fetch(apiUrl)
-      .then((response) => response.json())
-      .then((data) => {
-        console.log('API Connected:');
-      })
-      .catch((error) => {
-        console.error('Error:', error.message);
-      });
-  }, []);
 
   
   return (
