@@ -4,11 +4,25 @@
 
 A React front end project that I created as part of the Northcoders Bootcamp. The React website fetches data from an API that I designed. The website allows the user to filter, sort and upvote news articles. Also, post comments and upvote comments. <br />
 
-## Install and Clone React Website:
+Live Demo: [News App ](https://nc-news-fc.onrender.com/)
 
-- clone https://github.com/milcroft/fe-nc-news-version-1.git <br />
-- npm install <br />
-- npm run start <br />
 
-## Live Hosted:
-- React Website: https://nc-news-fc.onrender.com/ <br />
+### 1. Clone News App
+
+HTTPS
+```
+https://github.com/darren-nickerson/fe-nc-news-version-1.git
+```
+
+###  2. install npm packages
+
+```
+npm i
+```
+
+### 3. Start App.
+
+```
+npm run start
+```
+
