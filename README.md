@@ -9,7 +9,6 @@ Live Demo: [News App ](https://nc-news-fc.onrender.com/)
 
 ### 1. Clone News App
 
-HTTPS
 ```
 https://github.com/darren-nickerson/fe-nc-news-version-1.git
 ```
